@@ -41,7 +41,7 @@
                         <img src="assets/img/peppermint.png" alt="gambar peppermint"
                             class="img-fluid mx-auto img-beranda">
                     </center>
-                    <h2 class="title text-center fst-italic">Mentha piperita</h2><br>
+                    <h2 class="title text-center fw-bolder fst-italic">Mentha piperita</h2><br>
                     <p class="sub-title text-center">Peppermint adalah tanaman herbal yang berasal dari keluarga
                         Labiatae atau Lamiaceae. </p>
 
@@ -91,9 +91,87 @@
                     <img src="assets/img/manfaat/stimulan.png" alt="" class="img-fluid">
                 </div>
             </div>
-
     </section>
 
+    <!-- <div class="container text-center my-3">
+        <div class="row mx-auto my-auto justify-content-center">
+            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card">
+
+                                <img src="assets/img/manfaat/atasi_pencernaan.png" class="img-fluid">
+
+                                <div class="card-img-overlay">Slide 1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets/img/manfaat/atasi_pencernaan.png" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets/img/manfaat/atasi_pencernaan.png" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://via.placeholder.com/700x500.png/B7B7A4/333333?text=4"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://via.placeholder.com/700x500.png/A5A58D/333333?text=5"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://via.placeholder.com/700x500.png/6B705C/eeeeee?text=6"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 6</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div> -->
     <section id="kontraindikasi" style="background-color: #F6F1ED;">
         <div class="container">
             <center>
@@ -168,12 +246,11 @@
                         allowfullscreen></iframe>
                 </div>
                 <div class="col-md-6 order-md-2 ">
-                    <iframe class="pemanfaatan" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/episode/4svYGq50Og1eGnmkYoz6YO?utm_source=generator"
-                        width="100%" height="350px" frameBorder="0" allowfullscreen=""
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/episode/0xT6pZ64GIlxUvdH6uG7H7?utm_source=generator"
+                        width="100%" height="352" frameBorder="0" allowfullscreen=""
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy">
-                    </iframe>
+                        loading="lazy"></iframe>
                 </div>
             </div>
         </div>
@@ -185,6 +262,22 @@
         </footer>
     </div>
 
+    <!-- <script>
+        let items = document.querySelectorAll('.carousel .carousel-item')
+
+        items.forEach((el) => {
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    next = items[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
+        })
+    </script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>
